@@ -4,7 +4,7 @@ import {
     createRoutesFromElements,
     RouterProvider
       } from "react-router-dom";
-import NavLayout from "../layouts/NavLayout/NavLayout";
+import NavLayout from "../components/NavLayout/NavLayout";
 
     const Routy = () => {
     
