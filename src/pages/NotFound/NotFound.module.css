@@ -1,0 +1,38 @@
+.wrapper{
+    width: 90%;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.wrapper div{
+    width: 40%;
+}
+.wrapper img{
+    height: 350px;
+    width: 350px;
+}
+.wrapper button{
+    background-color: #FFC700;
+    color: white;
+    width: 398px;
+    height: 57px;
+    padding: 12px, 120px, 12px, 120px;
+    border: none;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+.wrapper p{
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+}
+.wrapper h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 80px;
+}
+.btn{
+    margin-left: 50px;
+}
