@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from './components/Footer/Footer'
 import Routy from './routes/Routy'
-import NotFound from './pages/NotFound'
+import NotFound from './pages/NotFound/NotFound'
 
 
 const App = () => {
