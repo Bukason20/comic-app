@@ -1,11 +1,12 @@
 import React from 'react'
 import Footer from './components/Footer/Footer'
+import Routy from './routes/Routy'
 
 
 const App = () => {
   return (
-    <div>App
-
+    <div>
+      <Routy />
       <Footer />
     </div>
   )

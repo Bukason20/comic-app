@@ -1,0 +1,27 @@
+.wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper figure{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.Flex{
+    position: relative;
+}
+.Flex img{
+    font-size: 15px;
+    position: absolute;
+    left: 15px;
+    top: 14px;
+}
+.Flex input{
+    width: 490px;
+    height: 59px;
+    border-radius: 16px;
+    padding: 14px 21px 14px 46px;
+}
