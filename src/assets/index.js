@@ -1,0 +1,11 @@
+// SVGS
+export { default as Facebook } from './images/Facebook.svg'
+export { default as Instagram } from './images/Instagram.svg'
+export { default as Logo } from './images/logo.svg'
+export { default as Search } from './images/Search.svg'
+export { default as Twitter } from './images/Twitter.svg'
+export { default as User } from './images/User.svg'
+export { default as Youtube } from './images/YouTube.svg'
+export { default as Squad } from './images/Squad.svg'
+export { default as House } from './images/house.svg'
+export { default as Error } from './images/error.svg'
