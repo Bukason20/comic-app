@@ -1,0 +1,57 @@
+.MainContainer {
+    height: 1080px;
+    width: 1440px;
+    background: #FFFFFF;
+}
+
+.LogoContainer {
+    width: 1440px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background: #FAF8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(../../assets/bgLoginSignup.png);
+    width: 1440px;
+    height: 961px;
+    left: 0px;
+    top: 119px;
+}
+
+.TextContainer {
+    font-family: 'Comicy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 110px;
+    text-align: center;
+}
+
+.InputContainer {
+    width: 660px;
+    height: 742px;
+    left: 730px;
+    top: 249px;
+    background: rgba(252, 252, 252, 0.72);
+    border-radius: 7px;
+}
+
+.InputPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 24px 42px;
+    width: 568px;
+    height: 642px;
+    background: #FAF8F8;
+    border-radius: 10px;
+}

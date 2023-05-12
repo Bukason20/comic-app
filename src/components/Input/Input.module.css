@@ -1,0 +1,17 @@
+.LabelItem {
+    width: 44px;
+    height: 24px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+input {
+    padding: 16px 10px;
+    gap: 10px;
+    width: 520px;
+    height: 48px;
+    background: #F2F2F2;
+    border-radius: 8px;
+}
