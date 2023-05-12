@@ -13,7 +13,7 @@ import LoginPage from "../pages/LoginPage/LoginPage";
     
       const router = createBrowserRouter(
         createRoutesFromElements(
-          <div>
+          <>
             <Route path='/' element={<NavLayout />}>
               <Route index element = {<Homepage />} />
               <Route path = "*" element = {<NotFound />}/>
@@ -22,7 +22,7 @@ import LoginPage from "../pages/LoginPage/LoginPage";
             <Route path="$" element={<LoginPage />}>
               
             </Route>
-          </div>
+          </>
           
       
         )
