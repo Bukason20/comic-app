@@ -1,7 +1,7 @@
 .Container{
     background-color: black;
     color: white;
-    min-height: 443px;
+    min-height: 300px;
 }
 .wrapper{
     width: 80%;
@@ -32,8 +32,9 @@
 .White{
     display: flex;
     justify-content: space-between;
-    margin-top: 170px;
+    margin-top: 70px;
     align-items: center;
+    padding-bottom: 30px;
 }
 .White span{
     border: 1px solid white;
