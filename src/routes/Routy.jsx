@@ -24,6 +24,7 @@ import Save from "../pages/Dashboard/Save";
               
               {/* DASHBOARD */}
               <Route path = "dash" element = {<DashLayout />}> 
+              <Route index element = {<Dashboard />} />
               <Route path ='collect' element = {<Collection />} />
               <Route path= 'hist' element = {<History />} />
               <Route path = 'save' element = {<Save />} />

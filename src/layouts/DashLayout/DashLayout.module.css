@@ -1,12 +1,15 @@
 .wrapper{
     display: flex;
-    height: 600px;
-    overflow: auto;
+    min-height: 600px;
+
 }
 .wrapper nav{
-    border: 1px solid black;
     width: 17%;
 
+}
+.wrapper .Main{
+    width: 73%;
+    
 }
 a{
     text-decoration: none;

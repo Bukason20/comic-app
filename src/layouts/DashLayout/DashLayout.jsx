@@ -44,7 +44,7 @@ const DashLayout = () => {
           </ul>
         </nav>
        
-        <main>
+        <main className={Dash.Main}>
             <Outlet />
         </main>
     </div>
