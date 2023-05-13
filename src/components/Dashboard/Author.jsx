@@ -1,5 +1,6 @@
 import React from 'react'
 import Auth from './Author.module.css'
+import { ArrowDown } from '../../assets'
 
 const Author = () => {
   return (
@@ -28,7 +29,10 @@ const Author = () => {
             <h4>Idowu Akinde</h4>
             <p>10 Comics</p>
             </div> 
-        </div>  
+        </div> 
+        <div className={Auth.Arrow}>
+        <img src = {ArrowDown} alt = 'arrow' />    
+        </div> 
     </main>  
     </div>
     </div>
