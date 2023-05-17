@@ -1,11 +1,15 @@
 import React from 'react';
-import InputBar from "../../components/Input/Input";
+import Input from "../../components/Input/Input";
 import Button from "../../components/Button/Button";
 import { Logo } from '../../assets'
 import style from "./SignupPage.module.css";
 
 
 function SignupPage() {
+
+  const setButton = () => {
+    
+  }
   return (
     <div className={style.MainContainer}>
 
@@ -25,24 +29,24 @@ function SignupPage() {
               <label className={style.LabelItem}>
                 Email:
               </label>
-              <InputBar type={"email"}  />
+              <Input type={"email"}  />
 
               <br />
 
               <label className={style.LabelItem}>
                 Password:
               </label>
-              <InputBar type={"password"}  />
+              <Input type={"password"}  />
 
               <br />
 
               <label className={style.LabelItem}>
                 Confirm password:
               </label>
-              <InputBar type={"password"}  />
+              <Input type={"password"}  />
 
 
-              <Button value="Sign Up" type="submit" setButton="setButton" />
+              <Button value= "Sign Up"  type="submit" setButton= {setButton} />
               
             </form>
 

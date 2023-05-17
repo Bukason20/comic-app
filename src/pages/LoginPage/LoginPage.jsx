@@ -1,16 +1,13 @@
 import React from 'react';
-import InputBar from "../../components/Input/Input";
-import ButtonBar from "../../components/Button/Button";
+import Input from "../../components/Input/Input";
+import Button from "../../components/Button/Button";
 import { Logo } from '../../assets'
 import style from "./LoginPage.module.css";
 
-
-
-
 function LoginPage() {
+  
   return (
     <div className={style.MainContainer}>
-
       <div className={style.LogoContainer}>
         <img src={ Logo } alt= 'logo' />
       </div>
@@ -27,16 +24,16 @@ function LoginPage() {
               <label className={style.LabelItem}>
                 Email:
               </label>
-              <InputBar type={"email"}  />
+              <Input type= "email"  />
 
               <br />
 
               <label className={style.LabelItem}>
                 Password:
               </label>
-              <InputBar type={"password"}  />
+              <Input type= "password"  />
 
-              <ButtonBar />
+              <Button value = "Login"/>
             </form>
       
             <div className={style.LoginFooter}>
@@ -46,7 +43,7 @@ function LoginPage() {
 
               <div className={style.forgotPword}>
                 <span>
-                Forgot Password?
+                  Forgot Password?
                 </span>
               </div>
 
