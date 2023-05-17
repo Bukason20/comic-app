@@ -34,3 +34,5 @@ export { default as Adult } from './images/Adult.svg'
 export { default as Romance } from './images/Romance.svg'
 export { default as Send } from './images/sendin.svg'
 export { default as ArrowDown } from './images/ArrowDown.svg'
+export { default as FireIcon } from "./images/FireIcon.png"
+export { default as Skeleton } from "./images/skeleton.png"
