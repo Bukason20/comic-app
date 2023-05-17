@@ -16,3 +16,5 @@ export { default as HeroImg3 } from './images/hero3.png'
 export { default as HeroImg4 } from './images/hero4.png'
 export { default as HeroImg5 } from './images/hero5.png'
 export { default as HeroImg6 } from './images/hero6.png'
+export { default as FireIcon } from "./images/FireIcon.png"
+export { default as Skeleton } from "./images/skeleton.png"
