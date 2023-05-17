@@ -10,10 +10,57 @@
     margin: auto;
     row-gap: 1rem;
 }
-.heroContents img{
+.comicImg{
     height: 270px;
-    /* width: 200px; */
     object-fit: cover;
+}
+.item{
+    position: relative;
+    height: fit-content;
+}
+.imgText{
+    position: absolute;
+    background-color: brown;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    background-color:#00132F80;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    width: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3rem;
+    gap: 0.9rem;
+}
+.comicName{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    /* margin-right: 2rem; */
+}
+.comicName img{
+    height: 30px;
+}
+.comicName p{
+    font-size: 0.9rem;
+    max-width: 3.5rem;
+    /* background-color: orange; */
+}
+.price{
+    align-items: center;
+    /* background-color: blue; */
+    width: 4rem;
+    margin: auto;
+}
+.imgText button{
+    background-color: #FFC700;
+    border: none;
+    outline: none;
+    padding: 0.3rem 1rem;
+    border-radius: 3rem;
+    font-size: 1.1rem;
 }
 .heroText{
     grid-column: 2 / 4;
@@ -42,3 +89,78 @@
     color: white;
     font-weight: bold;
 }
+
+/* ---------------------------------------------------------------LATEST COMIC SECITON------------------------------------ */
+.latestComicContainer {
+    margin-top: 30px ;
+}
+.latestComicContainer > h2{
+    margin-left: 3rem;
+}
+.latestComic {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    height: 550px;
+}
+.latestComic .part1{
+    background-color: #FFFDEA;
+    padding: 2rem 4rem;
+    /* padding-left: 4rem; */
+    border-right: 3px solid gray;
+    height: 100%;
+    /* width: 100%; */
+}
+.latestComicImg{
+    background-color: #FFC700;
+    padding: 1rem 2rem;
+    box-shadow: 5px 5px;
+}
+.latestComicImg img{
+    /* height: 400px; */
+    width: 350px;
+    object-fit: cover;
+    border-radius: 0.8rem;
+}
+.latestComicPrice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.latestComicPrice button{
+    background-color: #FB1A1A;
+    padding: 0.6rem 1.5rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+}
+.latestComic .part2{
+    background-color: #FFFBCE;
+    height: 100%  !important;
+    padding: 5rem 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* width: 100%; */
+}
+.latestComicDetails{
+    height: 100%;
+}
+#releaseDate{
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+.latestComic .part2 h1{
+    font-size: 2.8rem;
+    max-width: 200px;
+    margin: 0.5rem 0;
+    line-height: 3rem;
+}
+#description{
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+

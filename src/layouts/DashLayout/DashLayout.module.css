@@ -1,0 +1,72 @@
+.wrapper{
+    display: flex;
+    min-height: 600px;
+
+}
+.wrapper nav{
+    width: 17%;
+    margin-top: 30px;
+
+}
+.wrapper .Main{
+    width: 73%;
+    
+}
+a{
+    text-decoration: none;
+}
+.ash{
+    background-color: #F3F5F6;
+    min-height: 260px;
+    border-radius: 10px;
+    line-height: 50.74px;
+    padding-bottom: 30px;
+    
+}
+.ash main{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 80%;
+margin: auto;
+padding-top: 40px;
+}
+.ash main img{
+    height: 100px;
+    width: 100px;
+}
+
+.click{
+    width: 80%;
+    margin: 30px auto;
+}
+.ash button{
+    padding: 6px 14px 6px 14px;
+    border-radius: 30px;
+}
+.btn{
+    border: 1px solid #F08232;
+    color: #F08232;
+    margin-right: 12px;
+    
+}
+.btno{
+    background-color: #808997;
+    color: #F3F5F6;
+    border: 1px solid #808997;
+}
+
+.list{
+    width: 90%;
+    margin: auto;
+}
+.list div{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 22px;
+}
+.list div img{
+    height: 20px;
+    width: 20px;
+}

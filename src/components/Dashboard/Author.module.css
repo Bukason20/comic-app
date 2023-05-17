@@ -1,0 +1,30 @@
+.wrapper{
+background-color: #F3F5F6;   
+width: 300px;
+}
+.wrap{
+    width: 85%;
+    margin: auto !important;
+    padding: 20px 0 40px 0;
+}
+.circle{ 
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-top: 9px;
+}
+.wrappy{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+.Arrow{
+    text-align: center;
+    margin-top: 20px;
+}
+.Arrow img{
+    height: 30px;
+    width: 30px;
+}
