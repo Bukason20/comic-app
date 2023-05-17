@@ -6,9 +6,8 @@ function Button({type, value, setButton}) {
 
     <div className={style.ButtonContainer}>
       <button type={type}
-        value={value}
         onClick={setButton}
-        /> 
+        >{value}</button>
     
 
     </div>
