@@ -18,6 +18,8 @@ export { default as HeroImg3 } from './images/hero3.png'
 export { default as HeroImg4 } from './images/hero4.png'
 export { default as HeroImg5 } from './images/hero5.png'
 export { default as HeroImg6 } from './images/hero6.png'
+export { default as FireIcon } from "./images/FireIcon.png"
+export { default as Skeleton } from "./images/skeleton.png"
 
 // DASHBOARD
 export { default as Jay } from './images/Jay.svg'
@@ -34,5 +36,4 @@ export { default as Adult } from './images/Adult.svg'
 export { default as Romance } from './images/Romance.svg'
 export { default as Send } from './images/sendin.svg'
 export { default as ArrowDown } from './images/ArrowDown.svg'
-export { default as FireIcon } from "./images/FireIcon.png"
-export { default as Skeleton } from "./images/skeleton.png"
+
