@@ -8,6 +8,7 @@ import NavLayout from "../components/NavLayout/NavLayout";
 import Homepage from "../pages/Homepage/Homepage";
 import NotFound from "../pages/NotFound/NotFound";
 import LoginPage from "../pages/LoginPage/LoginPage";
+import SignupPage from "../pages/SignupPage/SignupPage";
 
     const Routy = () => {
     
@@ -19,9 +20,9 @@ import LoginPage from "../pages/LoginPage/LoginPage";
               <Route path = "*" element = {<NotFound />}/>
             </Route>
 
-            <Route path="$" element={<LoginPage />}>
-              
-            </Route>
+            <Route path="Login" element={<LoginPage />} />
+            <Route path="Signup" element={<SignupPage />} />
+            
           </>
           
       

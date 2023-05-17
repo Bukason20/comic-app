@@ -1,11 +1,16 @@
-import React from 'react';
 import style from "./Button.module.css";
 
 
-function Button() {
+function Button({type, value, setButton}) {
   return (
+
     <div className={style.ButtonContainer}>
-      <button> <a href='#'>Login</a> </button>
+      <button type={type}
+        value={value}
+        onClick={setButton}
+        /> 
+    
+
     </div>
   )
 }

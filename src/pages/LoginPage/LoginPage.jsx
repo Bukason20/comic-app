@@ -6,6 +6,7 @@ import style from "./LoginPage.module.css";
 
 
 
+
 function LoginPage() {
   return (
     <div className={style.MainContainer}>
@@ -22,13 +23,39 @@ function LoginPage() {
 
         <div className={style.InputContainer}>
           <div className={style.InputPage}>
-            <InputBar />
-            <ButtonBar />
+            <form>
+              <label className={style.LabelItem}>
+                Email:
+              </label>
+              <InputBar type={"email"}  />
+
+              <br />
+
+              <label className={style.LabelItem}>
+                Password:
+              </label>
+              <InputBar type={"password"}  />
+
+              <ButtonBar />
+            </form>
+      
+            <div className={style.LoginFooter}>
+              <div className={style.account}>
+                Don't have an account? <span>Sign up</span> 
+              </div>
+
+              <div className={style.forgotPword}>
+                <span>
+                Forgot Password?
+                </span>
+              </div>
+
+            </div>
           </div>
         </div>
 
       </div>
-
+      
     </div>
   )
 }

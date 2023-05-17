@@ -22,7 +22,6 @@
 
 .LogoContainer img {
     width: 200px;
-
 }
 
 .LoginContainer {
@@ -65,32 +64,29 @@
     border-radius: 10px;
 }
 
-form {
-    padding: 10px;
-}
-
 .LabelItem {
     width: 44px;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 12px;
     line-height: 30px;
-    padding-top: 50px;
+    padding-top: 0;
     font-family: Poppins;
 }
 
+
 .LoginFooter {
     display: flex;
-    margin-top: 175px;
+    margin-top: 88px;
     font-size: 10px;
 }
 
 .account {
-    margin-right: 50px;
+    margin-right: 60px;
 }
 
 .forgotPword {
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 span {
