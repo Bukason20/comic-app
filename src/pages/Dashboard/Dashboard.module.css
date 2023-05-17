@@ -1,0 +1,32 @@
+.wrapper{
+    width: 95%;
+    margin: auto;
+    
+}
+.wrapper h2, .wrapper h1{
+    padding: 50px 0;
+    line-height: 25px;
+}
+.image{
+    display: flex;
+gap: 4px;
+width: 90%;
+}
+.imag{
+    display: flex;
+    gap: 60px;
+}
+.image div{
+    height: 200px;
+    width: 250px;
+}
+.image div img{
+    object-fit: cover;
+    height: 200px;
+    width: 100% !important;
+}
+
+/*  */
+.picture{
+    display: flex;
+}
