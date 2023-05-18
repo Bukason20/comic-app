@@ -13,63 +13,67 @@ function SignupPage() {
   return (
     <div className={style.MainContainer}>
 
-    <div className={style.LogoContainer}>
-      <img src={ Logo } alt= 'logo' />
-    </div>
-
-    <div className={style.LoginContainer}>
-
-      <div className={style.TextContainer}>
-        <h1>LOGIN TO JOIN THE HEROS</h1>
+      <div className={style.LogoContainer}>
+        <img src={ Logo } alt= 'logo' />
       </div>
 
-      <div className={style.InputContainer}>
-        <div className={style.InputPage}>
-            <form>
-              <label className={style.LabelItem}>
-                Email:
-              </label>
-              <Input type={"email"}  />
+      <div className={style.LoginContainer}>
 
-              <br />
+        <div className={style.TextContainer}>
+          <h1>LOGIN TO JOIN THE HEROS</h1>
+        </div>
 
-              <label className={style.LabelItem}>
-                Password:
-              </label>
-              <Input type={"password"}  />
+        <div className={style.InputContainer}>
+          <div className={style.InputPage}>
+              <form>
+                <label className={style.LabelItem}>
+                  Email:
+                </label>
+                <Input type={"email"}  />
 
-              <br />
+                <br />
 
-              <label className={style.LabelItem}>
-                Confirm password:
-              </label>
-              <Input type={"password"}  />
+                <label className={style.LabelItem}>
+                  Password:
+                </label>
+                <Input type={"password"}  />
+
+                <br />
+
+                <label className={style.LabelItem}>
+                  Confirm password:
+                </label>
+                <Input type={"password"}  />
 
 
-              <Button value= "Sign Up"  type="submit" setButton= {setButton} />
-              
-            </form>
+                <Button value= "Sign Up"  type="submit" setButton= {setButton} />
+                
+              </form>
 
-          <div className={style.LoginFooter}>
-            <div className={style.account}>
-              Have an account? <span>Login</span> 
+            <div className={style.LoginFooter}>
+              <div className={style.account}>
+                Have an account? <span>Login</span> 
+              </div>
+
+              <div className={style.forgotPword}>
+                <span>
+                  Forgot Password?
+                </span>
+              </div>
+
             </div>
 
-            <div className={style.forgotPword}>
-              <span>
-                Forgot Password?
-              </span>
-            </div>
 
           </div>
+        
 
 
+        
         </div>
+
       </div>
 
     </div>
-
-  </div>
   )
 }
 

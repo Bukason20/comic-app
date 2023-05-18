@@ -92,3 +92,19 @@
 span {
     color: #FB1A1A;
 }
+
+
+
+
+@media (max-width: 375px) {
+    .LoginContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 50%;
+        height: 600px;
+        left: 0px;
+        font-family: Poppins;
+    }
+}
