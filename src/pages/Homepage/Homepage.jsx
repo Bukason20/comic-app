@@ -1,5 +1,6 @@
 import NavLayout from "../../components/NavLayout/NavLayout";
-import {HeroImg1, HeroImg2, HeroImg3, HeroImg4, HeroImg5, HeroImg6, FireIcon, Skeleton} from "../../assets"
+import {HeroImg1, HeroImg2, HeroImg3, HeroImg4, HeroImg5, HeroImg6, FireIcon, Skeleton, NewLabel, Category1,
+Category2, Category3, Category4, Category5, Category6, Category7, Category8} from "../../assets"
 import styles from "./homepage.module.css"
 
 function Homepage() {
@@ -28,7 +29,7 @@ function Homepage() {
                    <button>View by Category</button>
                 </div>
                 <div className={styles.item}>
-                    <img src= {HeroImg1} alt="" className = {styles.comicImg}/>
+                    <img src= {HeroImg2} alt="" className = {styles.comicImg}/>
                     <div className={styles.imgText}>
                         <div className = {styles.comicName}>
                             <img src= {FireIcon} alt=""/>   
@@ -120,12 +121,58 @@ function Homepage() {
                             <p id = {styles.releaseDate}>Release date: 4th April 20203 </p>
                             <h1>Dead Republic</h1>
                             <p id= {styles.description}>Description</p>
-                            <p>DEADLY REPUBLIC IS BACK! BUT WHAT HAPPENS WHEN THE SCARY BEAST PLANNED TO EXECUTE THE PRESIDENT IN COLD DAY. ONE OF THE BIGGEST STATUS QUO CHANGE YEARS IS HERE</p>
+                            <p id = {styles.comicDesc}>DEADLY REPUBLIC IS BACK! BUT WHAT HAPPENS WHEN THE SCARY BEAST PLANNED TO EXECUTE THE PRESIDENT IN COLD DAY. ONE OF THE BIGGEST STATUS QUO CHANGE YEARS IS HERE</p>
+                            <div className={styles.newLabel}>
+                                <img src= {NewLabel} alt=""/>
+                                <p>NEW</p>
+                            </div>
+                            
                         {/* </div> */}
                     </div>
                 </div>
                
                 
+            </section>
+
+            {/* -----------------------------------------------CATEGORY SECTION-------------------------------------------------- */}
+            <section className = {styles.categoryContainer}>
+                <h2>Search by Category</h2>
+
+                <div className={styles.categories}>
+                    <div className={styles.category}>
+                        <div className={styles.categoryOverlay}></div>
+                        <img src= {Category1} alt=""/>
+                        <p>Romance</p>
+                    </div>
+                    <div className={styles.category}>
+                        <img src= {Category2} alt=""/>
+                        <p>Adult</p>
+                    </div>
+                    <div className={styles.category}>
+                        <img src= {Category3} alt=""/>
+                        <p>Fiction</p>
+                    </div>
+                    <div className={styles.category}>
+                        <img src= {Category4} alt=""/>
+                        <p>Sci-Fi</p>
+                    </div>
+                    <div className={styles.category}>
+                        <img src= {Category5} alt=""/>
+                        <p>Action</p>
+                    </div>
+                    <div className={styles.category}>
+                        <img src= {Category6} alt=""/>
+                        <p>Lifestyle</p>
+                    </div>
+                    <div className={styles.category}>
+                        <img src= {Category7} alt=""/>
+                        <p>Planet</p>
+                    </div>
+                    <div className={styles.category}>
+                        <img src= {Category8} alt=""/>
+                        <p>Imagination</p>
+                    </div>
+                </div>
             </section>
         
         </div>
