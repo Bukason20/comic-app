@@ -20,7 +20,6 @@
 }
 .imgText{
     position: absolute;
-    background-color: brown;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
@@ -90,6 +89,30 @@
     font-weight: bold;
 }
 
+/* -----------------------------------------------------COMIC TYPE SECTION---------------------------------------------- */
+.comicType{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 0.5rem 0;
+    margin: 1rem 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.comicType p{
+    font-size: 1.2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    animation: marquee 10s linear infinite;
+    transition: all 400ms ease;
+}
+@keyframes marquee{
+    0% {
+        transform: translateX(900%);
+    }
+    100% {
+        transform: translateX(-800%);
+    }
+}
 /* ---------------------------------------------------------------LATEST COMIC SECITON------------------------------------ */
 .latestComicContainer {
     margin-top: 30px ;
@@ -193,9 +216,9 @@
 
 /* --------------------------------------------CATEGORY SECTION-------------------------------------- */
 .categoryContainer{
-    padding: 4rem;
-    /* background-color: indigo; */
+    padding: 2rem 4rem;
     margin-top: 1rem;
+    height: fit-content;
 }
 .categoryContainer > h2{
     margin-bottom: 3rem;
@@ -207,30 +230,164 @@
 }
 .category{
     position: relative;
+    /* background-color: lightcoral; */
+    height: 250px;
 }
 .categoryOverlay{
-    background: transparent;
-    /* transparen */
-    /* height: 100%; */
-    z-index: -200;
-    /* background: orange; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: orange;
+    height: 250px;
+    width: 100%;
+    z-index: 200;
+    background: linear-gradient(127.65deg, rgba(5, 84, 242, 0.18) 0%, rgba(32, 156, 255, 0.18) 100%);
+    border-radius: 1rem;
 }
 .categories img{
     height: 250px;
-    z-index: 300;
-    /* background: linear-gradient(green, green); */
-    
 }
 .category p{
-    position: absolute;
-    bottom: 15px;
-    background-color:#00132F80;
+    background-color:rgba(0, 19, 47, 0.5);
     color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 80%;
     text-align: center;
-    margin-left: 1rem;
+    margin: 0 auto;
     padding: 1rem 2rem;
     display: block;
     border-radius: 3rem;
+    transform: translateY(-80px);
+    backdrop-filter: blur(7.55px)
 }
+
+/* ---------------------------------------------------------BEST SELLING COMICS SECTION------------------------------------ */
+.bestSellingContainer{
+    padding: 2rem 0;
+    margin-top: 1rem;
+    height: fit-content;
+}
+.bestSellingContainer > h2{
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+}
+.bestSellers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    align-items: center;
+    /* overflow-x: scroll; */
+    padding: 0 4rem;
+    padding-right: 0;
+    /* scroll-behavior: smooth; */
+    /* scrollbar-width: 0; */
+}
+.bestSellerFilters {
+    margin-right: 2rem;
+}
+.bestSellerFilters p{
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.bestSellerFilters button{
+    /* width: rem; */
+    background: #FB1A1A;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 200;
+    border-radius: 2rem;
+}
+.bestSelling{
+    background-color: #FFC700;
+    width: fit-content;
+    border: 2px solid black;
+    padding-left: 1rem;
+}
+.bestSelling img{
+    height: 350px;
+    transform: translateY(-10px);
+}
+
+/* -----------------------------------------------------SUBSCRIBE SECTION------------------------------------------- */
+.subscribeContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 3rem 0;
+}
+.updates{
+    position: relative;
+}
+#updateLabel{
+    height: 120px;
+}
+#labelOverlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80px;
+    width: 110px;
+    z-index: 200px;
+    border-radius: 3rem;
+}
+.updates p{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    transform: translate(-50%, -50%);  
+    z-index: 300px;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    transform: rotateZ(-10deg);
+    width: 120px;
+    margin: auto;
+    /* background-color: blue; */
+}
+.subscribeText{
+    text-align: center;
+}
+#subscribe, #newsletter{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#subscribe{
+    color: black;
+    text-shadow: 2px 2px #FB1A1A;
+}
+#newsletter{
+    color: #FB1A1A;
+    text-shadow: 2px 2px black;
+    margin-bottom: 0.5rem;
+}
+.subscribeText p{
+    font-size: 1rem;
+}
+.subscribeForm{
+    margin-top: 2rem;
+}
+.subscribeForm input{
+    height: 3rem;
+    width: 300px;
+    padding: 0 1rem;
+}
+.subscribeForm button{
+    background-color: black;
+    height: 3rem;
+    margin-left: 0.5rem;
+    font-weight: 200;
+    padding: 0 2rem;
+}
+#curvyArrow{
+    height: 180px;
+}
+

@@ -29,6 +29,9 @@ export { default as Category5 } from "./images/Category5.png"
 export { default as Category6 } from "./images/Category6.png"
 export { default as Category7 } from "./images/Category7.png"
 export { default as Category8 } from "./images/Category8.png"
+export { default as BestSelling } from "./images/BestSelling.png"
+export { default as CurvyArrow } from "./images/CurvyArrow.png"
+export { default as LabelTop } from "./images/LabelTop.png"
 
 // DASHBOARD
 export { default as Jay } from './images/Jay.svg'
