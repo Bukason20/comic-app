@@ -20,6 +20,15 @@ export { default as HeroImg5 } from './images/hero5.png'
 export { default as HeroImg6 } from './images/hero6.png'
 export { default as FireIcon } from "./images/FireIcon.png"
 export { default as Skeleton } from "./images/skeleton.png"
+export { default as NewLabel } from "./images/NewLabel.png"
+export { default as Category1 } from "./images/Category1.png"
+export { default as Category2 } from "./images/Category2.png"
+export { default as Category3 } from "./images/Category3.png"
+export { default as Category4 } from "./images/Category4.png"
+export { default as Category5 } from "./images/Category5.png"
+export { default as Category6 } from "./images/Category6.png"
+export { default as Category7 } from "./images/Category7.png"
+export { default as Category8 } from "./images/Category8.png"
 
 // DASHBOARD
 export { default as Jay } from './images/Jay.svg'
