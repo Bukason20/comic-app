@@ -93,6 +93,7 @@
 /* ---------------------------------------------------------------LATEST COMIC SECITON------------------------------------ */
 .latestComicContainer {
     margin-top: 30px ;
+    border-bottom: 1px solid black;
 }
 .latestComicContainer > h2{
     margin-left: 3rem;
@@ -141,7 +142,8 @@
     height: 100%  !important;
     padding: 5rem 2rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* width: 100%; */
+    width: 100%;
+    /* overflow: hidden; */
 }
 .latestComicDetails{
     height: 100%;
@@ -162,5 +164,73 @@
     font-weight: bold;
     text-decoration: underline;
 }
+#comicDesc{
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+    width: 450px;
+}
+.newLabel{
+    position: relative;
+    /* background: hotpink; */
+    width: fit-content;
+    margin-top: 3rem;
+    margin-left: 70%;
+}
+.newLabel img{
+    height: 50px;
+}
+.newLabel p{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    font-weight: bold;
+}
 
-
+/* --------------------------------------------CATEGORY SECTION-------------------------------------- */
+.categoryContainer{
+    padding: 4rem;
+    /* background-color: indigo; */
+    margin-top: 1rem;
+}
+.categoryContainer > h2{
+    margin-bottom: 3rem;
+}
+.categories{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.category{
+    position: relative;
+}
+.categoryOverlay{
+    background: transparent;
+    /* transparen */
+    /* height: 100%; */
+    z-index: -200;
+    /* background: orange; */
+}
+.categories img{
+    height: 250px;
+    z-index: 300;
+    /* background: linear-gradient(green, green); */
+    
+}
+.category p{
+    position: absolute;
+    bottom: 15px;
+    background-color:#00132F80;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+    text-align: center;
+    margin-left: 1rem;
+    padding: 1rem 2rem;
+    display: block;
+    border-radius: 3rem;
+}
